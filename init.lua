@@ -16,7 +16,7 @@ minetest.register_tool("wonderpick:pick", {
             unbreakable   = {times = {[1] = 0, [2] = 0, [3] = 0}, uses = 0, maxlevel = 3},
             dig_immediate = {times = {[1] = 0, [2] = 0, [3] = 0}, uses = 0, maxlevel = 3},
         },
-        damage_groups = {groupname = 1000},
+        damage_groups = {fleshy = 2},
         punch_attack_uses = 0,
     },
 })
